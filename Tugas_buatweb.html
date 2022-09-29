@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Form Regristration</title>
+    <title>Form Regristration IT-PLN</title>
 </head>
+<body>
+    <h1>WELCOME TO IT-PLN!</h1>
+    
 <body>
     <form action="contact.php" method="POST">
         <fieldset>
-        <legend><b>Form HTML</b></legend>
+        <legend><b>CREATE YOUR ACCOUNT!</b></legend>
+        
         <p>
             <label>Name:</label>
             <input type="text" name="name" placeholder="Your name..." />
@@ -26,6 +30,10 @@
             <label><input type="radio" name="Gender" value="Woman" /> Woman</label>
         </p>
         <p>
+            <label>Date of birth:</label>
+            <input type="date" name="tanggal" />
+        </p>
+        <p>
             <label>Country:</label>
             <select name="country">
                 <option value="Russia">Russia</option>
@@ -42,6 +50,9 @@
         <p>
             <label>Comment:</label>
             <textarea name="comment"></textarea>
+        </p>
+        <p>
+            <label><input type="checkbox" name="remember" value="remember" /> Remember me</label>
         </p>
         <p>
             <input type="submit" name="submit" value="Submit" />
